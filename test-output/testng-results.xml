@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-18T01:34:31 GMT-06:00" name="RestAssured API Testing Suite" finished-at="2024-07-18T01:34:37 GMT-06:00" duration-ms="5903">
+    <groups>
+    </groups>
+    <test started-at="2024-07-18T01:34:31 GMT-06:00" name="API Automation Testing Suite" finished-at="2024-07-18T01:34:37 GMT-06:00" duration-ms="5903">
+      <class name="tests.GetAPITest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.GetAPITest@350aac89]" started-at="2024-07-18T01:34:31 GMT-06:00" name="Setup" finished-at="2024-07-18T01:34:31 GMT-06:00" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="createNewBoard()[pri:1, instance:tests.GetAPITest@350aac89]" started-at="2024-07-18T01:34:31 GMT-06:00" name="createNewBoard" finished-at="2024-07-18T01:34:34 GMT-06:00" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewBoard -->
+        <test-method signature="verifyBoardCreatedByHasMap()[pri:2, instance:tests.GetAPITest@350aac89]" started-at="2024-07-18T01:34:34 GMT-06:00" name="verifyBoardCreatedByHasMap" finished-at="2024-07-18T01:34:34 GMT-06:00" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoardCreatedByHasMap -->
+        <test-method signature="createNewList()[pri:3, instance:tests.GetAPITest@350aac89]" started-at="2024-07-18T01:34:34 GMT-06:00" name="createNewList" finished-at="2024-07-18T01:34:34 GMT-06:00" duration-ms="384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewList -->
+        <test-method signature="verifyListCreated()[pri:4, instance:tests.GetAPITest@350aac89]" started-at="2024-07-18T01:34:34 GMT-06:00" name="verifyListCreated" finished-at="2024-07-18T01:34:35 GMT-06:00" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListCreated -->
+        <test-method signature="createNewCard()[pri:5, instance:tests.GetAPITest@350aac89]" started-at="2024-07-18T01:34:35 GMT-06:00" name="createNewCard" finished-at="2024-07-18T01:34:35 GMT-06:00" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewCard -->
+        <test-method signature="deleteBoard()[pri:6, instance:tests.GetAPITest@350aac89]" started-at="2024-07-18T01:34:35 GMT-06:00" name="deleteBoard" finished-at="2024-07-18T01:34:37 GMT-06:00" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+        <test-method signature="verifyDeleteBoard()[pri:7, instance:tests.GetAPITest@350aac89]" started-at="2024-07-18T01:34:37 GMT-06:00" name="verifyDeleteBoard" finished-at="2024-07-18T01:34:37 GMT-06:00" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteBoard -->
+      </class> <!-- tests.GetAPITest -->
+    </test> <!-- API Automation Testing Suite -->
+  </suite> <!-- RestAssured API Testing Suite -->
+</testng-results>

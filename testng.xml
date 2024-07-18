@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured API Testing Suite">
+	
+	
+	<listeners>
+		<listener class-name="extentReportListener.ExtenetReportListener" />
+	</listeners>
+	
+	<test name="API Automation Testing Suite">
+		<classes>
+			<class name="tests.GetAPITest" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
